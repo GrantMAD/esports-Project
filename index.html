@@ -1,0 +1,941 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="./css/site-custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+        <nav-container>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item border-right border-left">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item border-right border-left">
+              <a class="nav-link" href="./matches.html">Matches</a>
+            </li>
+            <li class="nav-item border-right border-left">
+                <a class="nav-link" href="./results.html">Results</a>
+            </li>
+            <li class="nav-item border-right border-left">
+                <a class="nav-link" href="./events.html">Events</a>
+            </li>
+            <li class="nav-item border-right border-left">
+                <a class="nav-link" href="./gallery.html">Galleries</a>
+            </li>
+          </ul>
+          <div class="nav-search">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" id="search-input" type="search" placeholder="Search..." aria-label="Search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          </div>
+          <ul class="navbar-nav mr-auto" id="Log-in-button">
+            <li class="nav-item border-right border-left">
+                <a class="nav-link" href="./login.html">Log In</a>
+            </li>
+          </ul>
+        </div>
+        </nav-container>
+      </nav>
+
+    <section class="content-area">
+      <div class="container">
+          <h1 class="heading">EsportsArena</h1>
+      </div>
+      <div class="main-content-area">
+        <div class="left-side-content">
+          <div class="current-matches-area">
+            <h5 class="current-matches-heading">Today's Matches</h5>
+            <div class="current-matches-block">
+              <ul class="current-matches">
+                <li class="matches"><a href="./team.html">
+                  <div class="matches-box">
+                    <div class="team-area">
+                      <div class="teams">
+                        <div class="team-row">
+                          <img src="images/Flag.png" class="flag">
+                          <span class="team">Bravado</span>
+                        </div>
+                        <div class="team-row">
+                          <img src="images/Flag.png" class="flag">
+                          <span class="team">Energy</span>
+                        </div>
+                      </div>
+                      <div class="team-score">
+                        <div class="team-row-score">
+                          <div class="live-score">
+                            <span class="round-score">16</span>
+                            (
+                            <span class="series-score">1</span>
+                            )
+                          </div>
+                        </div>
+                        <div class="team-row-score">
+                          <div class="live-score">
+                            <span class="round-score">8</span>
+                            (
+                            <span class="series-score">2</span>
+                            )
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                </li>
+                <li class="matches"><a href="./team.html">
+                    <div class="matches-box">
+                        <div class="team-area">
+                          <div class="teams">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Big5</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Sinister5</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="team-row-score">
+                              <div class="live-score">
+                                <span class="round-score">16</span>
+                                (
+                                <span class="series-score">0</span>
+                                )
+                              </div>
+                            </div>
+                            <div class="team-row-score">
+                              <div class="live-score">
+                                <span class="round-score">14</span>
+                                (
+                                <span class="series-score">2</span>
+                                )
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                </li>
+                <li class="matches"><a href="./team.html">
+                    <div class="matches-box">
+                        <div class="team-area">
+                          <div class="teams">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Goliath</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Bravado</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="team-row-score">
+                              <div class="live-score">
+                                <span class="round-score">13</span>
+                                (
+                                <span class="series-score">2</span>
+                                )
+                              </div>
+                            </div>
+                            <div class="team-row-score">
+                              <div class="live-score">
+                                <span class="round-score">16</span>
+                                (
+                                <span class="series-score">1</span>
+                                )
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                </li>
+                <li class="matches"><a href="./team.html">
+                    <div class="matches-box">
+                        <div class="team-area">
+                          <div class="teams">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">WRG</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Bravado</span>
+                            </div>
+                          </div>
+                          <div class="starting-time">
+                            <div class="team-row-time">
+                              <div class="starting-time">17:00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                </li>
+                <li class="matches"><a href="./team.html">
+                    <div class="matches-box">
+                        <div class="team-area">
+                          <div class="teams">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">OG</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">DUC</span>
+                            </div>
+                          </div>
+                            <div class="starting-time">
+                              <div class="team-row-time">
+                                <div class="starting-time">18:30</div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
+                    </a>
+                </li>
+                <li class="matches"><a href="./team.html">
+                    <div class="matches-box">
+                        <div class="team-area">
+                          <div class="teams">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Good</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Nibble</span>
+                            </div>
+                          </div>
+                          <div class="starting-time">
+                            <div class="team-row-time">
+                              <div class="starting-time">19:00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                </li>
+                <li class="matches"><a href="./team.html">
+                    <div class="matches-box">
+                        <div class="team-area">
+                          <div class="teams">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Big5</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">WRG</span>
+                            </div>
+                          </div>
+                          <div class="starting-time">
+                            <div class="team-row-time">
+                              <div class="starting-time">20:00</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="matches-page-ad-1">
+                <img src="images/ad 3.png">
+            </div>
+          <div class="results-matches-area">
+              <h5 class="results-matches-heading">Results</h5>
+              <div class="results-matches-block">
+                <ul class="results-matches">
+                  <li class="matches"><a href="./team.html">
+                    <div class="matches-box">
+                        <div class="team-area">
+                          <div class="teams">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Bravado</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Energy</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="team-row-score">
+                              <div class="live-score">
+                                <span class="series-score">2</span>
+                              </div>
+                            </div>
+                            <div class="team-row-score">
+                              <div class="live-score">
+                                <span class="series-score">1</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="matches"><a href="./team.html">
+                      <div class="matches-box">
+                          <div class="team-area">
+                            <div class="teams">
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">OG</span>
+                              </div>
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">DUC</span>
+                              </div>
+                            </div>
+                            <div class="team-score">
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">2</span>
+                                </div>
+                              </div>
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">0</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                  <li class="matches"><a href="./team.html">
+                      <div class="matches-box">
+                          <div class="team-area">
+                            <div class="teams">
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Sinister5</span>
+                              </div>
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Big5</span>
+                              </div>
+                            </div>
+                            <div class="team-score">
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">0</span>
+                                </div>
+                              </div>
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">2</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                  <li class="matches"><a href="./team.html">
+                      <div class="matches-box">
+                          <div class="team-area">
+                            <div class="teams">
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Nibble</span>
+                              </div>
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Good</span>
+                              </div>
+                            </div>
+                            <div class="team-score">
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">2</span>
+                                </div>
+                              </div>
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">1</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                  <li class="matches"><a href="./team.html">
+                      <div class="matches-box">
+                          <div class="team-area">
+                            <div class="teams">
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">WRG</span>
+                              </div>
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Big5</span>
+                              </div>
+                            </div>
+                            <div class="team-score">
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">0</span>
+                                </div>
+                              </div>
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">1</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                  <li class="matches"><a href="./team.html">
+                      <div class="matches-box">
+                          <div class="team-area">
+                            <div class="teams">
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Big5</span>
+                              </div>
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Bravado</span>
+                              </div>
+                            </div>
+                            <div class="team-score">
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">2</span>
+                                </div>
+                              </div>
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">1</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                  <li class="matches"><a href="./team.html">
+                      <div class="matches-box">
+                          <div class="team-area">
+                            <div class="teams">
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Goliath</span>
+                              </div>
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Nibble</span>
+                              </div>
+                            </div>
+                            <div class="team-score">
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">2</span>
+                                </div>
+                              </div>
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">0</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                  <li class="matches"><a href="./team.html">
+                      <div class="matches-box">
+                          <div class="team-area">
+                            <div class="teams">
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Good</span>
+                              </div>
+                              <div class="team-row">
+                                <img src="images/Flag.png" class="flag">
+                                <span class="team">Sinister5</span>
+                              </div>
+                            </div>
+                            <div class="team-score">
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">0</span>
+                                </div>
+                              </div>
+                              <div class="team-row-score">
+                                <div class="live-score">
+                                  <span class="series-score">1</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+        <div class="center-side-content">
+          <div class="center-add-top">
+            <img src="images/ad 4.jpg">
+          </div>
+          <div class="featured-news-area">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/Esports.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/esports-image-2.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/esports-image-3.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="news-area">
+            <div class="news-heading">Today's news</div>
+            <div class="todays-news">
+              <a href="./team.html">
+              <div class="news-story">
+                <img src="images/logo bravado.png" class="news-image">
+                <div class="inner-news-heading">Bravado wins Dreamhack South Africa.</div>
+                <div class="news-duration">an hour ago</div>
+              </div>
+            </a>
+            <a href="./team.html">
+              <div class="news-story">
+                  <img src="images/logo rage.png" class="news-image">
+                  <div class="inner-news-heading">Goliath and Sinister5 round out Rage qualifier team list.</div>
+                  <div class="news-duration">an hour ago</div>
+              </div>
+            </a>
+            <a href="./team.html">
+              <div class="news-story">
+                  <img src="images/logo Sinister5.png" class="news-image">
+                  <div class="inner-news-heading">Sinister5 swap out Dota and Die for Welp.</div>
+                  <div class="news-duration">an hour ago</div>
+              </div>
+            </a>
+              <a href="./team.html">
+              <div class="news-story">
+                  <img src="images/logo Big5.png" class="news-image">
+                  <div class="inner-news-heading">Big5 qualify for biggest international event of any south african team ever.</div>
+                  <div class="news-duration">an hour ago</div>
+              </div>
+            </a>
+            </div>
+            <div class="news-heading">Previous news</div>
+            <div class="previous-news">
+              <a href="./team.html">
+                <div class="news-story">
+                    <div class="news-story">
+                        <img src="images/logo bravado.png" class="news-image">
+                        <div class="inner-news-heading">Bravado wins Dreamhack South Africa</div>
+                        <div class="news-duration">a day ago</div>
+                    </div>
+                </div>
+              </a>
+              <a href="./team.html">
+                <div class="news-story">
+                    <div class="news-story">
+                        <img src="images/logo bravado.png" class="news-image">
+                        <div class="inner-news-heading">Bravado wins Dreamhack South Africa</div>
+                        <div class="news-duration">2 day's ago</div>
+                    </div>
+                </div>
+              </a>
+                <a href="./team.html">
+                <div class="news-story">
+                    <div class="news-story">
+                        <img src="images/logo bravado.png" class="news-image">
+                        <div class="inner-news-heading">Bravado wins Dreamhack South Africa</div>
+                        <div class="news-duration">4 day's ago</div>
+                    </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <a href="#" class="more-news">More news</a>
+        </div>
+      <div class="right-side-content">
+          <a href="./team.html">
+            <h5 id="featured-matches-heading">Featured Match</h5>
+          <div class="featured-match-area">
+            <div class="featured-match-teams">
+              <img src="images/featured logo Big5 .png" class="featured-match-team">
+              <p>vs</p>
+              <img src="images/featured logo Goliath .png" class="featured-match-team" id="featured-match-team">
+            </div>
+            <div class="featured-match-status">
+              <span class="match-status">Live</span>
+            </div>
+          </div>
+        </a>
+          <div class="rankings-area">
+            <h5 class="rankings-heading">Rankings</h5>
+            <div class="rankings-block">
+              <ul class="rankings-order">
+                <a href="./team.html">
+                <li class="rankings">
+                  <div class="rankings-postion">
+                    <span class="postion">1.</p>
+                  </div>
+                  <div class="team-logo">
+                    <img src="images/logo bravado.png" class="logo">
+                  </div>
+                  <div class="rankings-team">
+                    <span class="top-team">Bravado</span>
+                  </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="rankings">
+                    <div class="rankings-postion">
+                        <span class="postion">2.</p>
+                    </div>
+                    <div class="team-logo">
+                      <img src="images/logo WRG.png" class="logo">
+                    </div>
+                    <div class="rankings-team">
+                      <span class="top-team">WRG</span>
+                    </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="rankings">
+                    <div class="rankings-postion">
+                        <span class="postion">3.</p>
+                      </div>
+                      <div class="team-logo">
+                        <img src="images/logo Goliath.png" class="logo">
+                      </div>
+                      <div class="rankings-team">
+                        <span class="top-team">Goliath</span>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="rankings">
+                    <div class="rankings-postion">
+                        <span class="postion">4.</p>
+                      </div>
+                      <div class="team-logo">
+                        <img src="images/logo Big5.png" class="logo">
+                      </div>
+                      <div class="rankings-team">
+                        <span class="top-team">Big5</span>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="rankings">
+                    <div class="rankings-postion">
+                        <span class="postion">5.</p>
+                      </div>
+                      <div class="team-logo">
+                        <img src="images/logo Sinister5.png" class="logo">
+                      </div>
+                      <div class="rankings-team">
+                        <span class="top-team">Sinister5</span>
+                      </div>
+                </li>
+              </a>
+              </ul> 
+            </div>
+          </div>
+          <div class="index-page-ad-3">
+                <img src="images/ad 2.jpg">
+          </div>
+          <div class="events-area">
+            <h5 class="events-heading">Events</h5>
+            <div class="events-block">
+              <ul class="events-matches">
+                <a href="./team.html">
+                <li class="events">
+                  <div class="event-logo">
+                      <img src="images/events-logo-1.png" class="logo-event">
+                    </div>
+                    <div class="event-text-area">
+                      <span class="event-name">StarLadder Major</span>
+                  </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="events">
+                    <div class="event-logo">
+                        <img src="images/events-logo-2.png" class="logo-event">
+                      </div>
+                      <div class="event-text-area">
+                        <span class="event-name">Syntech Masters</span>
+                    </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="events">
+                    <div class="event-logo">
+                        <img src="images/events-logo-3.png" class="logo-event">
+                      </div>
+                      <div class="event-text-area">
+                        <span class="event-name">Vs gaming qualis</span>
+                    </div>
+                </li>
+              </a>
+              </ul>
+            </div>
+          </div>
+          <div class="replay-area">
+            <h5 class="replay-heading">Latest Replay's</h5>
+            <div class="results-matches-block">
+              <ul class="latest-replays">
+                <a href="./team.html">
+                <li class="replays">
+                  <div class="replays-box">
+                      <div class="team-area">
+                        <div class="team-half">
+                          <div class="team-row">
+                            <img src="images/Flag.png" class="flag">
+                            <span class="team">Goliath</span>
+                          </div>
+                          <div class="team-row">
+                            <img src="images/Flag.png" class="flag">
+                            <span class="team">Nibble</span>
+                          </div>
+                        </div>
+                        <div class="team-score">
+                          <div class="vod-heading">VOD</div>
+                        </div>
+                      </div>
+                    </div>
+              </li>
+            </a>
+            <a href="./team.html">
+                <li class="replays">
+                    <div class="replays-box">
+                        <div class="team-area">
+                          <div class="team-half">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">OG</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">DUC</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="vod-heading">VOD</div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="replays">
+                    <div class="replays-box">
+                        <div class="team-area">
+                          <div class="team-half">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Sinister5</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Big5</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="vod-heading">VOD</div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="replays">
+                    <div class="replays-box">
+                        <div class="team-area">
+                          <div class="team-half">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Nibble</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Good</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="vod-heading">VOD</div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="replays">
+                    <div class="replays-box">
+                        <div class="team-area">
+                          <div class="team-half">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">WRG</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Big5</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="vod-heading">VOD</div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="replays">
+                    <div class="replays-box">
+                        <div class="team-area">
+                          <div class="team-half">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Big5</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Bravado</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="vod-heading">VOD</div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="replays">
+                    <div class="replays-box">
+                        <div class="team-area">
+                          <div class="team-half">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Goliath</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Nibble</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="vod-heading">VOD</div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              </a>
+              <a href="./team.html">
+                <li class="replays">
+                    <div class="replays-box">
+                        <div class="team-area">
+                          <div class="team-half">
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Good</span>
+                            </div>
+                            <div class="team-row">
+                              <img src="images/Flag.png" class="flag">
+                              <span class="team">Sinister5</span>
+                            </div>
+                          </div>
+                          <div class="team-score">
+                            <div class="vod-heading">VOD</div>
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              </a>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+<footer class="page-footer font-small special-color-dark pt-4" id="footer">
+
+  <div class="container">
+
+    <ul class="list-unstyled list-inline text-center">
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb mx-1">
+          <i class="facebook">
+            <img src="./images/facebook-logo.jpg">
+          </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw mx-1">
+          <i class="twitter">
+            <img src="./images/twitter.png">
+          </i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="footer-copyright text-center " id="copyright-area">© 2019 Copyright:
+    <a href="http://esportsarena.co.za/"> EsportsArena.co.za</a>
+  </div>
+</footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+.main-text-area {
+    display: block;
+    height: 695px;
+    background-color: rgb(231, 231, 231);
+}
+
+.text-area {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.address {
+    width: 350px;
+    margin-left: 500px;
+    font-family: 'Indie Flower', cursive;
+    background-color: #f9c9a0;
+    color: white;
+    text-shadow: 2px 2px #a5a5a5;
+}
+
+.main-heading {
+    display: block;
+    padding-top: 80px;
+}
+
+.heading {
+    color: rgb(80, 80, 80);
+    font-family: 'Patua One', cursive;
+    font-weight: 700;
+    font-size: 120px;
+    text-shadow: 2px 2px #a5a5a5;
+}
+
+.line {
+    width: 600px;
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 3px;
+}
+
+.bottem-text {
+    padding-top: 10px;
+}
+
+.text {
+    font-size: 35px;
+    color: rgb(148, 148, 148);
+}

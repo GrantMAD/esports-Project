@@ -1,0 +1,249 @@
+nav-container {
+    max-width: 960px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#nav-bar {
+    top: 0;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0px .3px 5px 0px rgba(50,50,50,0.4);
+}
+
+.nav-search {
+    padding-left: 8px;
+}
+
+#search-input {
+    height: 30px;
+    width: 170px;
+}
+
+#Log-in-button {
+    padding-left: 8px; 
+}
+
+.content-area {
+    max-width: 960px;
+    height: 1100px;
+    padding-top: 10px;
+    margin: 0 auto;
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+}
+
+.heading {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main-content-area {
+    display: flex;
+    margin-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.left-side-content {
+    max-width: 145px;
+    text-align: center;
+    order: 1;
+}
+
+.center-side-content {
+    width: 581px;
+    margin-left: 25px;
+    margin-right: 25px;
+    order: 2;
+}
+
+.right-side-content {
+    max-width: 145px;
+    order: 3;
+}
+
+.current-matches-area {
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+    border-radius: 5px;
+}
+
+.current-matches-heading {
+    display: block;
+    width: 145px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    margin: 0px;
+    font-size: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.results-matches-area {
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+    border-radius: 5px;
+}
+
+.results-matches-heading {
+    display: block;
+    width: 145px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    margin: 0px;
+    font-size: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.current-matches {
+    padding: 0px;
+    list-style: none;
+}
+
+.matches {
+    display: block;
+    border-bottom: .3px solid rgba(50,50,50,0.4);
+    width: 145px;
+    height: 45px;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.results-matches {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.featured-match-area {
+    display: block;
+    padding: 15px;
+    max-height: 180px;
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+    border-radius: 5px;
+}
+
+.featured-match {
+    text-align: center;
+}
+
+.featured-match-heading {
+    font-size: 10px;
+}
+
+.featured-match-teams {
+    display: flex;
+    margin-top: 20px;
+    max-height: 28px;
+    justify-content: center;
+}
+
+.featured-match-status {
+    display: flex;
+    justify-content: center;
+}
+
+.featured-match-team {
+    padding: 5px;
+}
+
+.featured-match-button {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+.news-area {
+    order: 2;
+}
+
+.todays-news {
+    display: block;
+    width: 581px;
+    height: 360px;
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+    border-radius: 5px;
+}
+
+.previous-news {
+    display: block;
+    margin-top: 25px;
+    width: 581px;
+    height: 360px;
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+    border-radius: 5px;
+}
+
+.rankings-area {
+    display: block;
+    margin-top: 25px;
+    text-align: center; 
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+    border-radius: 5px;
+}
+
+.rankings-heading {
+    width: 145px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    margin: 0px;
+    font-size: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.rankings-order {
+    padding: 0px;
+    list-style: none;
+}
+
+.rankings {
+    display: block;
+    border-bottom: .3px solid rgba(50,50,50,0.4);
+    width: 145px;
+    height: 35px;
+}
+
+.events-area {
+    display: block;
+    margin-top: 25px;
+    text-align: center; 
+    box-shadow: .3px 0px 5px .3px rgba(50,50,50,0.4);
+    border-radius: 5px;
+}
+
+.events-heading {
+    width: 145px;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    margin: 0px;
+    font-size: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.events-matches {
+    padding: 0px;
+    list-style: none;
+}
+
+.events {
+    display: block;
+    border-bottom: .3px solid rgba(50,50,50,0.4);
+    width: 145px;
+    height: 45px;
+}
+
+#footer {
+    box-shadow: .3px 0px 5px 0px rgba(50,50,50,0.4);
+}
+
+#copyright-area {
+    padding-bottom: 24px;
+}
+
